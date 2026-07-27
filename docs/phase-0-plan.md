@@ -44,7 +44,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
   - Which outcomes indicate that V1 is useful and trustworthy?
   - How will we evaluate success during personal use?
 - **Expected output/artifact:** V1 goals and measurable or observable success criteria in `docs/product-brief.md`.
-- **Status:** TODO
+- **Status:** DONE
 
 ### 3. Define explicit V1 non-goals
 
