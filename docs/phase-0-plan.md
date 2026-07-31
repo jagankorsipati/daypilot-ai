@@ -23,9 +23,11 @@ Inspected on July 26, 2026.
 
 Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after its decisions and artifact have been reviewed.
 
+GitHub Issues are the canonical task records and status history. This document remains the Phase 0 roadmap and artifact index; its statuses should be synchronized with the linked issues.
+
 ## Task tracker
 
-### 1. Define the product problem and target user
+### 1. [Define the product problem and target user](https://github.com/jagankorsipati/daypilot-ai/issues/1)
 
 - **Purpose:** Establish whose problem DayPilot AI solves and why the product should exist.
 - **Questions we need to answer:**
@@ -36,7 +38,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/product-brief.md` containing the problem statement, target-user profile, needs, and success framing.
 - **Status:** DONE
 
-### 2. Define V1 goals and success criteria
+### 2. [Define V1 goals and success criteria](https://github.com/jagankorsipati/daypilot-ai/issues/2)
 
 - **Purpose:** Translate the product problem into a small set of outcomes that V1 must achieve.
 - **Questions we need to answer:**
@@ -46,17 +48,17 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** V1 goals and measurable or observable success criteria in `docs/product-brief.md`.
 - **Status:** DONE
 
-### 3. Define explicit V1 non-goals
+### 3. [Define explicit V1 non-goals](https://github.com/jagankorsipati/daypilot-ai/issues/3)
 
 - **Purpose:** Protect the project from scope expansion and clarify what V1 will intentionally not solve.
 - **Questions we need to answer:**
   - Which users, platforms, workflows, and integrations are out of scope?
   - Which advanced assistant behaviors are deferred?
   - What will remain manual in V1?
-- **Expected output/artifact:** Prioritized non-goals and deferred ideas in `docs/product-brief.md`.
-- **Status:** TODO
+- **Expected output/artifact:** Categorized non-goals and deferred ideas in `docs/v1-scope.md`.
+- **Status:** DONE
 
-### 4. Capture primary user journeys and use cases
+### 4. [Capture primary user journeys and use cases](https://github.com/jagankorsipati/daypilot-ai/issues/4)
 
 - **Purpose:** Describe how the target user will accomplish the most important goals end to end.
 - **Questions we need to answer:**
@@ -66,7 +68,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/user-journeys.md` with named journeys, preconditions, main flows, exceptions, and outcomes.
 - **Status:** TODO
 
-### 5. Define functional requirements
+### 5. [Define functional requirements](https://github.com/jagankorsipati/daypilot-ai/issues/5)
 
 - **Purpose:** Turn accepted journeys into clear statements of system behavior.
 - **Questions we need to answer:**
@@ -76,7 +78,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/requirements.md` with uniquely identified, testable functional requirements and traceability to journeys.
 - **Status:** TODO
 
-### 6. Define non-functional requirements and quality attributes
+### 6. [Define non-functional requirements and quality attributes](https://github.com/jagankorsipati/daypilot-ai/issues/6)
 
 - **Purpose:** Set expectations for qualities such as privacy, security, reliability, performance, accessibility, and maintainability.
 - **Questions we need to answer:**
@@ -86,7 +88,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** A prioritized quality-attribute section in `docs/requirements.md`, including scenarios or acceptance measures where useful.
 - **Status:** TODO
 
-### 7. Define system context, boundaries, and external systems
+### 7. [Define system context, boundaries, and external systems](https://github.com/jagankorsipati/daypilot-ai/issues/7)
 
 - **Purpose:** Make clear what DayPilot AI owns and what it delegates to outside services.
 - **Questions we need to answer:**
@@ -97,7 +99,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/system-context.md` with a context diagram, external-system inventory, ownership boundaries, and dependency assumptions.
 - **Status:** TODO
 
-### 8. Define major application domains and module responsibilities
+### 8. [Define major application domains and module responsibilities](https://github.com/jagankorsipati/daypilot-ai/issues/8)
 
 - **Purpose:** Divide the product into cohesive areas with clear ownership and limited coupling.
 - **Questions we need to answer:**
@@ -107,7 +109,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/domain-model.md` with a domain/module map, responsibilities, and dependencies.
 - **Status:** TODO
 
-### 9. Draft the high-level system architecture
+### 9. [Draft the high-level system architecture](https://github.com/jagankorsipati/daypilot-ai/issues/9)
 
 - **Purpose:** Establish the main runtime components and how requests and data move through them.
 - **Questions we need to answer:**
@@ -118,7 +120,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/architecture.md` with container/component diagrams, responsibility descriptions, and representative request flows.
 - **Status:** TODO
 
-### 10. Draft the initial conceptual data and domain model
+### 10. [Draft the initial conceptual data and domain model](https://github.com/jagankorsipati/daypilot-ai/issues/10)
 
 - **Purpose:** Identify core concepts, relationships, ownership, and lifecycle without prematurely fixing a database schema.
 - **Questions we need to answer:**
@@ -129,7 +131,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** Conceptual model and glossary in `docs/domain-model.md`; no migrations or physical schema.
 - **Status:** TODO
 
-### 11. Define conceptual API and interaction boundaries
+### 11. [Define conceptual API and interaction boundaries](https://github.com/jagankorsipati/daypilot-ai/issues/11)
 
 - **Purpose:** Describe how the frontend and backend capabilities interact while leaving endpoint details for implementation phases.
 - **Questions we need to answer:**
@@ -140,7 +142,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/api-boundaries.md` with capability groups, conceptual request/response shapes, error conventions, and boundary rules.
 - **Status:** TODO
 
-### 12. Define the identity, authentication, and authorization approach
+### 12. [Define the identity, authentication, and authorization approach](https://github.com/jagankorsipati/daypilot-ai/issues/12)
 
 - **Purpose:** Decide conceptually how a private, single-user-oriented product establishes identity and protects access.
 - **Questions we need to answer:**
@@ -151,7 +153,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/identity-and-access.md` with flows, trust boundaries, session approach, and unresolved choices; no OAuth implementation.
 - **Status:** TODO
 
-### 13. Define Google Calendar integration boundaries
+### 13. [Define Google Calendar integration boundaries](https://github.com/jagankorsipati/daypilot-ai/issues/13)
 
 - **Purpose:** Isolate Google-specific concerns and define how calendar data enters and leaves the system.
 - **Questions we need to answer:**
@@ -162,7 +164,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/google-calendar-boundary.md` with required capabilities, adapter boundary, data-handling rules, and open questions.
 - **Status:** TODO
 
-### 14. Define AI responsibilities and deterministic backend responsibilities
+### 14. [Define AI responsibilities and deterministic backend responsibilities](https://github.com/jagankorsipati/daypilot-ai/issues/14)
 
 - **Purpose:** Establish a safe boundary between probabilistic language behavior and authoritative application logic.
 - **Questions we need to answer:**
@@ -173,7 +175,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/ai-boundary.md` with a responsibility matrix, orchestration flow, guardrails, and example allowed/disallowed behaviors.
 - **Status:** TODO
 
-### 15. Define the calendar write proposal and confirmation model
+### 15. [Define the calendar write proposal and confirmation model](https://github.com/jagankorsipati/daypilot-ai/issues/15)
 
 - **Purpose:** Ensure calendar changes cannot occur merely because an assistant inferred an intent.
 - **Questions we need to answer:**
@@ -184,7 +186,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/calendar-action-safety.md` with proposal states, confirmation rules, failure behavior, and sequence diagrams.
 - **Status:** TODO
 
-### 16. Perform a security, privacy, and data-lifecycle review
+### 16. [Perform a security, privacy, and data-lifecycle review](https://github.com/jagankorsipati/daypilot-ai/issues/16)
 
 - **Purpose:** Analyze sensitive assets and threats across the proposed design before implementation begins.
 - **Questions we need to answer:**
@@ -195,7 +197,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/security-and-privacy.md` with data classification, lightweight threat model, controls, lifecycle rules, and open risks.
 - **Status:** TODO
 
-### 17. Identify major risks, assumptions, constraints, and unknowns
+### 17. [Identify major risks, assumptions, constraints, and unknowns](https://github.com/jagankorsipati/daypilot-ai/issues/17)
 
 - **Purpose:** Make uncertainty visible and determine which issues need research or prototypes before implementation.
 - **Questions we need to answer:**
@@ -206,7 +208,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/risk-register.md` with ranked risks, assumptions, unknowns, mitigations, and proposed spikes.
 - **Status:** TODO
 
-### 18. Record and review key architectural decisions
+### 18. [Record and review key architectural decisions](https://github.com/jagankorsipati/daypilot-ai/issues/18)
 
 - **Purpose:** Preserve the reasoning behind decisions that materially constrain future implementation.
 - **Questions we need to answer:**
@@ -217,7 +219,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** `docs/decisions/` containing an ADR index and individual ADRs for accepted decisions.
 - **Status:** TODO
 
-### 19. Validate Phase 0 consistency and exit criteria
+### 19. [Validate Phase 0 consistency and exit criteria](https://github.com/jagankorsipati/daypilot-ai/issues/19)
 
 - **Purpose:** Confirm that the Phase 0 artifacts form a coherent, reviewable basis for implementation.
 - **Questions we need to answer:**
@@ -228,7 +230,7 @@ Only one task should normally be `IN_PROGRESS`. A task becomes `DONE` only after
 - **Expected output/artifact:** A Phase 0 review checklist and resolution notes in `docs/phase-0-review.md`.
 - **Status:** TODO
 
-### 20. Prepare Phase 1 recommendations and handoff
+### 20. [Prepare Phase 1 recommendations and handoff](https://github.com/jagankorsipati/daypilot-ai/issues/20)
 
 - **Purpose:** Convert accepted Phase 0 decisions into a constrained, incremental starting plan for project foundation work.
 - **Questions we need to answer:**
