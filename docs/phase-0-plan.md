@@ -96,8 +96,8 @@ GitHub Issues are the canonical task records and status history. This document r
   - Which responsibilities belong inside the product boundary?
   - Which external systems are required now or later?
   - What trust and failure boundaries exist?
-- **Expected output/artifact:** `docs/system-context.md` with a context diagram, external-system inventory, ownership boundaries, and dependency assumptions.
-- **Status:** TODO
+- **Expected output/artifact:** `docs/system-boundaries.md` with a context diagram, external-system inventory, ownership boundaries, trust boundaries, and failure expectations.
+- **Status:** DONE
 
 ### 8. [Define major application domains and module responsibilities](https://github.com/jagankorsipati/daypilot-ai/issues/8)
 
