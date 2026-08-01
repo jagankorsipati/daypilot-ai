@@ -66,7 +66,7 @@ GitHub Issues are the canonical task records and status history. This document r
   - Where are user approval or error-recovery steps required?
   - Which journeys are essential versus optional for V1?
 - **Expected output/artifact:** `docs/user-journeys.md` with named journeys, preconditions, main flows, exceptions, and outcomes.
-- **Status:** TODO
+- **Status:** DONE
 
 ### 5. [Define functional requirements](https://github.com/jagankorsipati/daypilot-ai/issues/5)
 
@@ -75,8 +75,8 @@ GitHub Issues are the canonical task records and status history. This document r
   - What must the system do for each V1 capability?
   - What inputs, validations, state changes, and failure behaviors are required?
   - Which requirements are mandatory, optional, or deferred?
-- **Expected output/artifact:** `docs/requirements.md` with uniquely identified, testable functional requirements and traceability to journeys.
-- **Status:** TODO
+- **Expected output/artifact:** `docs/functional-requirements.md` with uniquely identified, testable functional requirements and traceability to journeys.
+- **Status:** DONE
 
 ### 6. [Define non-functional requirements and quality attributes](https://github.com/jagankorsipati/daypilot-ai/issues/6)
 
