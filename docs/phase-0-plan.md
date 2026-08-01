@@ -85,8 +85,8 @@ GitHub Issues are the canonical task records and status history. This document r
   - What data-protection and privacy guarantees are required?
   - What availability, latency, recovery, and observability targets are appropriate for a personal V1?
   - What browser, device, accessibility, and maintainability expectations apply?
-- **Expected output/artifact:** A prioritized quality-attribute section in `docs/requirements.md`, including scenarios or acceptance measures where useful.
-- **Status:** TODO
+- **Expected output/artifact:** Categorized, prioritized, and verifiable quality requirements in `docs/non-functional-requirements.md`.
+- **Status:** DONE
 
 ### 7. [Define system context, boundaries, and external systems](https://github.com/jagankorsipati/daypilot-ai/issues/7)
 
